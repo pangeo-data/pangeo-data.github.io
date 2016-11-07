@@ -1,13 +1,11 @@
 ---
-layout:     post
-title:      "First Pangeo Meeting"
-subtitle:   "Building scalable big data geoscience tools"
-date:       2016-11-06 12:00:00
-author:     "Joe Hamman"
-header-img: "img/post-bg-01.jpg"
+layout: page
+title: "About"
+description: "A community effort for big data geoscience"
+header-img: "img/about-bg.jpg"
 ---
 
-There are several building crises facing the Atmosphere / Ocean / Climate (AOC) science community:
+There are several building crises facing the Atmosphere / Ocean / Land / Climate (AOC) science community:
 
 - Big Data: datasets are growing too rapidly and legacy software tools for scientific analysis can't handle them. This is a major obstacle to scientific progress.
 - Technology Gap:  a growing gap between the technological sophistication of industry solutions (high) and scientific software (low).
@@ -34,7 +32,7 @@ As much as possible, we will build on top of existing solutions and leverage exp
 
 The Python Data Stack:
 
-[]()
+![The State of the Stack](../img/scientific-python-28-638.jpg "The State of the Stack")
 (Source:  Jake VanderPlas, "The State of the Stack," SciPy Keynote (SciPy 2015).)
 
 
