@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "About"
 description: "A community effort for big data geoscience"
-header-img: "img/about-bg.jpg"
 ---
+
+## Motivation
 
 There are several building crises facing the Atmosphere / Ocean / Land / Climate (AOC) science community:
 
@@ -33,7 +33,8 @@ As much as possible, we will build on top of existing solutions and leverage exp
 The Python Data Stack:
 
 ![The State of the Stack](../img/scientific-python-28-638.jpg "The State of the Stack")
-(Source:  Jake VanderPlas, "The State of the Stack," SciPy Keynote (SciPy 2015).)
+(Source:  [Jake VanderPlas](https://staff.washington.edu/jakevdp/),
+  ["The State of the Stack,"](https://speakerdeck.com/jakevdp/the-state-of-the-stack-scipy-2015-keynote) SciPy Keynote (SciPy 2015).)
 
 
 In practice, the "python data" software stack (see above) currently provides the most stable and powerful foundation layer for our desired tools. In particular the xarray and dask projects provide a mechanism to easily build scalability into scientific analysis.  Our vision of future AOC software involves the adoption of these common software layers, and a clear communication between developers to define project scope and dependency that eliminates redundancy and fragmentation.
@@ -56,4 +57,6 @@ We encourage everyone to get involved by:
 - contributing to the software, via issues and pull requests, and/or
 - using the software for your scientific analysis and letting us know about your experiences (e.g., contributing to examples)
 
-To join the organization and contribute, ... (TBD)
+For now, community discussion is happening on our
+[pangeo google group](https://groups.google.com/forum/#!forum/pangeo).
+This is an open group, and we invite anyone interested to join.
