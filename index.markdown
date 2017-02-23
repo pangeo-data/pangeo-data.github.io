@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Pangeo Data
 description: "A community effort for big data geoscience"
 ---
 
@@ -66,7 +67,7 @@ This is an open group, and we invite anyone interested to join.
 ## Package Design Documents
 
 {% for page in site.pages %}{% if page.title %}
-  {% if page.url != '/404.html' and page.title != 'blog' %}
+  {% if page.url != '/404.html' and page.title != 'blog' and page.title != 'Pangeo Data' %}
 - [{{page.title}}]({{ page.url | prepend: site.baseurl }})
   {% endif %}
  {% endif %}{% endfor %}
