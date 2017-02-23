@@ -60,3 +60,13 @@ We encourage everyone to get involved by:
 For now, community discussion is happening on our
 [pangeo google group](https://groups.google.com/forum/#!forum/pangeo).
 This is an open group, and we invite anyone interested to join.
+
+************
+
+## Package Design Documents
+
+{% for page in site.pages %}{% if page.title %}
+  {% if page.url != '/404.html' and page.title != 'blog' %}
+- [{{page.title}}]({{ page.url | prepend: site.baseurl }})
+  {% endif %}
+ {% endif %}{% endfor %}
