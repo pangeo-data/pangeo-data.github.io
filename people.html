@@ -5,9 +5,15 @@ description: "The Pangeo Community"
 ---
 
 <p>Pangeo is an open group. Anyone who agrees with our
-<a href="{{ site.baseurl }}/">mission and vision</a> is welcome to join.
-To add your name to the list, just add your details to the database via
-github.</p>
+<a href="{{ site.baseurl }}/">mission and vision</a> is welcome to join.<p>
+
+<p>To add your name to the list, fork the
+<a href="https://github.com/pangeo-data/pangeo-data.github.io">source for this site</a>
+on GitHub, add your details to the file <em>_data/people.yml</em>, and submit
+a pull request. The easiest way to do this is to directly
+<a href="https://github.com/pangeo-data/pangeo-data.github.io/blob/master/_data/people.yml">edit
+  the file</a> on GitHub.
+</p>
 
 
 {% assign people = site.data.people | sort:"last_name" %}
@@ -20,7 +26,7 @@ github.</p>
     <li><h3>{{ person.first_name }} {{ person.last_name}}</h3></li>
     {% if person.github %}
     <li>
-        <a href="https://github.com/{{ site.github_username }}">
+        <a href="https://github.com/{{ person.github }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-github fa-stack-1x"></i>
             </span>
@@ -29,7 +35,7 @@ github.</p>
     {% endif %}
     {% if person.twitter %}
     <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}">
+        <a href="https://twitter.com/{{ person.twitter }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-twitter fa-stack-1x"></i>
             </span>
@@ -39,7 +45,7 @@ github.</p>
 
     {% if person.email %}
     <li>
-        <a href="mailto:{{ site.email_username }}">
+        <a href="mailto:{{ person.email }}">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-envelope fa-stack-1x"></i>
             </span>
