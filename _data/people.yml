@@ -55,3 +55,14 @@
   tags:
     - distributed computing
     - algorithms
+
+- first_name: Guillaume
+  last_name: Sérazin
+  institution: Laboratoire d'Étude en Géophysique et Océanographie Spatiale
+  website: https://github.com/serazing/serazing.github.io
+  email: guillaume.serazin@legos.obs-mip.fr
+  github: serazing
+  orcid: 0000-0002-7069-5886
+  tags:
+    - physical oceanography
+    - climate
