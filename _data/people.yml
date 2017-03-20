@@ -1,0 +1,31 @@
+- first_name: Ryan
+  last_name: Abernathey
+  institution: Lamont Doherty Earth Observatory
+  website: http://rabernat.github.io
+  email: rpa@ldeo.columbia.edu
+  github: rabernat
+  twitter: rabernat
+  orcid: 0000-0001-5999-4917
+  tags:
+    - physical oceanography
+    - climate
+
+- first_name: Chiara
+  last_name: Lepore
+  institution: Lamont Doherty Earth Observatory
+  website: http://www.ldeo.columbia.edu/~clepore/
+  twitter: lapiccolaflo
+  github: chiaral
+  tags:
+    - hydrology
+- first_name: Jeremy
+  last_name: McGibbon
+  institution: University of Washington Department of Atmospheric Sciences
+  website: http://www.jeremymcgibbon.com/
+  email: mcgibbon@uw.edu
+  github: mcgibbon
+  twitter: jeremy_mcgibbon
+  orcid: 0000-0003-4955-9772
+  tags:
+    - atmospheric science
+    - climate
