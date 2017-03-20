@@ -43,7 +43,19 @@
   tags:
     - atmospheric science
     - climate
-    
+
+- first_name: Matthew
+  last_name: Rocklin
+  institution: Continuum Analytics
+  website: http://www.matthewrocklin.com/
+  email: mrocklin@gmail.com
+  github: mrocklin
+  twitter: mrocklin
+  orcid: 0000-0002-3709-6953
+  tags:
+    - distributed computing
+    - algorithms
+
 - first_name: Guillaume
   last_name: Sérazin
   institution: Laboratoire d'Étude en Géophysique et Océanographie Spatiale
