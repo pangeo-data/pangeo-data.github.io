@@ -44,6 +44,17 @@
     - atmospheric science
     - climate
 
+- first_name: James
+  last_name: Munroe
+  institution: Memorial University of Newfoundland
+  website: http://www.physics.mun.ca/~jmunroe/
+  email: jmunroe@mun.ca
+  github: jmunroe
+  twitter: JamesMunroeNL
+  orcid: 0000-0001-9098-6309
+  tags:
+    - physical oceanography
+    
 - first_name: Matthew
   last_name: Rocklin
   institution: Continuum Analytics
@@ -55,6 +66,19 @@
   tags:
     - distributed computing
     - algorithms
+
+- first_name: Daniel
+  last_name: Rothenberg
+  institution: Massachusetts Institute of Technology
+  website: http://www.danielrothenberg.com
+  email: darothen@mit.edu
+  github: darothen
+  twitter: danrothenberg
+  orcid: 0000-0002-8270-4831
+  tags:
+    - climate
+    - meteorology
+    - policy
 
 - first_name: Guillaume
   last_name: Sérazin
@@ -78,3 +102,49 @@
   tags:
     - atmospheric dynamics
     - climate
+
+- first_name: Spencer
+  last_name: Clark
+  institution: Princeton University
+  website: http://www.princeton.edu/~skclark
+  email: skclark@princeton.edu
+  github: spencerkclark
+  orcid: 0000-0001-5595-7895
+  tags:
+    - atmospheric science
+    - climate
+    
+- first_name: Nic
+  last_name: Wayand
+  institution: University of Saskatchewan
+  website: http://nicwayand.com
+  email: nic.wayand@usask.ca
+  github: NicWayand
+  orcid: 0000-0001-9894-6213
+  tags:
+    - hydrology
+    - atmospheric science
+    
+- first_name: Ryan
+  last_name: May
+  institution: University Corporation for Atmospheric Research/Unidat
+  website: http://www.unidata.ucar.edu
+  email: rmay@ucar.edu
+  github: dopplershift
+  twitter: dopplershift
+  orcid: 0000-0003-2907-038X
+  tags:
+    - atmospheric science
+    - remote sensing
+    - algorithms
+
+- first_name: Ed
+  last_name: Doddridge
+  institution: Massachusetts Institute of Technology
+  website: https://doddridge.me
+  email: ewd@mit.edu
+  github: edoddridge
+  twitter: edoddridge
+  orcid: 0000-0002-6097-5729
+  tags:
+    - physical oceanography
