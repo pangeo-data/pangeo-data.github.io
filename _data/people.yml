@@ -66,3 +66,14 @@
   tags:
     - physical oceanography
     - climate
+
+- first_name: Spencer
+  last_name: Hill
+  institution: UCLA Dept. of Atmospheric & Oceanic Sciences, and Caltech Division of Geological & Planetary Sciences
+  website: http://people.atmos.ucla.edu/shill/
+  email: shill@atmos.ucla.edu
+  github: spencerahill
+  orcid: 0000-0001-8672-0671
+  tags:
+    - atmospheric dynamics
+    - climate
