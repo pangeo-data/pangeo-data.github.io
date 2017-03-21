@@ -67,6 +67,19 @@
     - physical oceanography
     - climate
 
+- first_name: Ryan
+  last_name: May
+  institution: University Corporation for Atmospheric Research/Unidata
+  website: http://www.unidata.ucar.edu
+  email: rmay@ucar.edu
+  github: dopplershift
+  twitter: dopplershift
+  orcid: 0000-0003-2907-038X
+  tags:
+    - atmospheric science
+    - remote sensing
+    - algorithms
+
 - first_name: Ed
   last_name: Doddridge
   institution: Massachusetts Institute of Technology
@@ -77,3 +90,4 @@
   orcid: 0000-0002-6097-5729
   tags:
     - physical oceanography
+
