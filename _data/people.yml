@@ -78,9 +78,20 @@
     - physical oceanography
     - climate
 
+- first_name: Nic
+  last_name: Wayand
+  institution: University of Saskatchewan
+  website: http://nicwayand.com
+  email: nic.wayand@usask.ca
+  github: NicWayand
+  orcid: 0000-0001-9894-6213
+  tags:
+    - hydrology
+    - atmospheric science
+    
 - first_name: Ryan
   last_name: May
-  institution: University Corporation for Atmospheric Research/Unidata
+  institution: University Corporation for Atmospheric Research/Unidat
   website: http://www.unidata.ucar.edu
   email: rmay@ucar.edu
   github: dopplershift
@@ -101,4 +112,3 @@
   orcid: 0000-0002-6097-5729
   tags:
     - physical oceanography
-
