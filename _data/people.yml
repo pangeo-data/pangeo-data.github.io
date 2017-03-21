@@ -79,3 +79,15 @@
     - atmospheric science
     - remote sensing
     - algorithms
+
+- first_name: Ed
+  last_name: Doddridge
+  institution: Massachusetts Institute of Technology
+  website: https://doddridge.me
+  email: ewd@mit.edu
+  github: edoddridge
+  twitter: edoddridge
+  orcid: 0000-0002-6097-5729
+  tags:
+    - physical oceanography
+
