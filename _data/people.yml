@@ -66,3 +66,14 @@
   tags:
     - physical oceanography
     - climate
+
+- first_name: Nic
+  last_name: Wayand
+  institution: University of Saskatchewan
+  website: http://nicwayand.com
+  email: nic.wayand@usask.ca
+  github: NicWayand
+  orcid: 0000-0001-9894-6213
+  tags:
+    - hydrology
+    - atmospheric science
