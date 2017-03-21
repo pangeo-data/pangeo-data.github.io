@@ -67,6 +67,19 @@
     - distributed computing
     - algorithms
 
+- first_name: Daniel
+  last_name: Rothenberg
+  institution: Massachusetts Institute of Technology
+  website: http://www.danielrothenberg.com
+  email: darothen@mit.edu
+  github: darothen
+  twitter: danrothenberg
+  orcid: 0000-0002-8270-4831
+  tags:
+    - climate
+    - meteorology
+    - policy
+
 - first_name: Guillaume
   last_name: Sérazin
   institution: Laboratoire d'Étude en Géophysique et Océanographie Spatiale
