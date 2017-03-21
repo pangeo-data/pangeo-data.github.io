@@ -66,3 +66,14 @@
   tags:
     - physical oceanography
     - climate
+
+- first_name: Spencer
+  last_name: Clark
+  institution: Princeton University
+  website: http://www.princeton.edu/~skclark
+  email: skclark@princeton.edu
+  github: spencerkclark
+  orcid: 0000-0001-5595-7895
+  tags:
+    - atmospheric science
+    - climate
