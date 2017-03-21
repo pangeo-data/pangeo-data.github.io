@@ -44,6 +44,17 @@
     - atmospheric science
     - climate
 
+- first_name: James
+  last_name: Munroe
+  institution: Memorial University of Newfoundland
+  website: http://www.physics.mun.ca/~jmunroe/
+  email: jmunroe@mun.ca
+  github: jmunroe
+  twitter: JamesMunroeNL
+  orcid: 0000-0001-9098-6309
+  tags:
+    - physical oceanography
+    
 - first_name: Matthew
   last_name: Rocklin
   institution: Continuum Analytics
