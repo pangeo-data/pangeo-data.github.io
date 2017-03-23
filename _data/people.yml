@@ -172,3 +172,15 @@
   orcid: 0000-0001-8615-4921
   tags:
     - atmospheric science
+
+    
+- first_name: Joy
+  last_name: Monteiro
+  institution: Stockholm University
+  email: joy.monteiro@misu.su.se
+  github: JoyMonteiro
+  orcid: 0000-0002-3932-3603
+  tags:
+    - climate
+    - atmospheric science
+    - modeling
