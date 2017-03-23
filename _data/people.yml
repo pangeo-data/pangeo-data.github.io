@@ -172,7 +172,6 @@
   orcid: 0000-0001-8615-4921
   tags:
     - atmospheric science
-
     
 - first_name: Joy
   last_name: Monteiro
@@ -183,4 +182,16 @@
   tags:
     - climate
     - atmospheric science
+    - modeling
+
+- first_name: Fabien
+  last_name: Maussion
+  institution: University of Innsbruck
+  website: http://fabienmaussion.info/
+  email: fabien.maussion@uibk.ac.at
+  github: fmaussion
+  orcid: 0000-0002-3211-506X
+  tags:
+    - climate
+    - glaciology
     - modeling
