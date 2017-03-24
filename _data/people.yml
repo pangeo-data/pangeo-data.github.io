@@ -184,3 +184,16 @@
     - climate
     - atmospheric science
     - modeling
+
+
+- first_name: Julien
+  last_name: Le Sommer
+  institution: Institut des Géosciences de l’Environnement
+  website: http://lesommer.github.io/
+  email: julien.lesommer@univ-grenoble-alpes.fr
+  github: lesommer
+  orcid: 0000-0002-6882-2938
+  tags:
+    - physical oceanography
+    - ocean models
+    - climate    
