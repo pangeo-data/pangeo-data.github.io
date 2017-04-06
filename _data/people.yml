@@ -197,3 +197,16 @@
     - physical oceanography
     - ocean models
     - climate    
+
+
+- first_name: Rachel
+  last_name: Prudden
+  institution: Met Office Informatics Lab
+  website: http://informaticslab.co.uk/profiles/rachel-prudden.html
+  email: rachel.prudden@informaticslab.co.uk
+  github: RPrudden
+  twitter: RachelPrudden
+  tags:
+    - atmospheric science
+    - distributed computing
+    - algorithms
