@@ -173,7 +173,6 @@
   tags:
     - atmospheric science
 
-    
 - first_name: Joy
   last_name: Monteiro
   institution: Stockholm University
@@ -184,7 +183,6 @@
     - climate
     - atmospheric science
     - modeling
-
 
 - first_name: Julien
   last_name: Le Sommer
@@ -198,7 +196,6 @@
     - ocean models
     - climate    
 
-
 - first_name: Rachel
   last_name: Prudden
   institution: Met Office Informatics Lab
@@ -208,5 +205,16 @@
   twitter: RachelPrudden
   tags:
     - atmospheric science
+    - distributed computing
+    - algorithms
+
+- first_name: Kevin
+  last_name: Paul
+  institution: National Center for Atmospheric Research
+  website: https://staff.ucar.edu/users/kpaul
+  email: kpaul@ucar.edu
+  github: KMPaul
+  tags:
+    - climate
     - distributed computing
     - algorithms
