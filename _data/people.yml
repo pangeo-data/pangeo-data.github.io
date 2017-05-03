@@ -196,6 +196,18 @@
     - ocean models
     - climate    
 
+- first_name: Phillip
+  last_name: Wolfram
+  institution: Los Alamos National Laboratory
+  website: https://github.com/pwolfram
+  email: pwolfram@lanl.gov
+  github: pwolfram
+  orcid: 0000-0001-5971-4241
+  tags:
+    - physical oceanography
+    - modeling
+    - climate
+
 - first_name: Rachel
   last_name: Prudden
   institution: Met Office Informatics Lab
@@ -218,3 +230,4 @@
     - climate
     - distributed computing
     - algorithms
+
