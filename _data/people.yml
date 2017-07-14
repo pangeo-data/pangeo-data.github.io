@@ -231,3 +231,12 @@
     - distributed computing
     - algorithms
 
+- first_name: Stephan
+  last_name: Hoyer
+  website: http://stephanhoyer.com
+  email: shoyer@gmail.com
+  github: shoyer
+  twitter: shoyer
+  tags:
+    - software
+    - algorithms
