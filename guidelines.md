@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Pangeo Packages
+title: Package Guidelines
 description: Guidelines for Pangeo packages to follow
 ---
 
 Our vision for the Pangeo project is an ecosystem of mutually compatible
 Geoscience python packages which follow open-source best practices.
 These practices are well established across the scientific python community.
+
 
 ### General Best Practices for Open Source
 
@@ -15,6 +16,7 @@ These practices are well established across the scientific python community.
 1. Version control of source code (for example, on [github](http://github.org))
 1. Thorough test coverage and continuous integration of testing
 1. Comprehensive Documentation
+
 
 ### Best Practices for Pangeo Projects
 
@@ -32,6 +34,7 @@ mutual interoperability between packages.
 1. _Operate Lazily:_ packages should avoid explicitly triggering computation
 on [Dask] objects.
 
+
 ### Why XArray and Dask?
 
 The Pangeo project strongly encourages the use of XArray data structures
@@ -48,14 +51,15 @@ and developers happier and more productive in their day-to-day scientific
 computing.
 
 
-XArray's data model is explicitly based on the [CF Conventions], a
+XArray's data model is explicitly based on the
+[CF Conventions](http://cfconventions.org/), a
 well-established community standard which encompasses many different common
 scenarios encountered in Earth System science.
 However, XArray is flexible and does not _require_ compliance with CF
 conventions.
 
 Most geoscientists have encountered the CF data model via the ubiquitous
-[netCDF file format].
+[netCDF file format](https://www.unidata.ucar.edu/software/netcdf/).
 While XArray can easily read and write netCDF files, it doesn't have to.
 This is a key difference between software built on XArray and numerous
 other tools designed to process netCDF data (e.g. nco, cdo, etc. etc.):
@@ -68,7 +72,9 @@ writing files.
 
 Another important aspect of scalability is the use of Dask for parallel and
 out-of-core computations. The raw data underlying XArray objects can be either
-standard in-memory [numpy arrays] or [Dask arrays]. Dask arrays behave nearly
+standard in-memory [numpy arrays](http://www.numpy.org/) or
+[Dask arrays](http://dask.pydata.org/en/latest/array.html).
+Dask arrays behave nearly
 identically to numpy arrays (they support the same API), but instead of storing
 raw data directly, they store a symbolic computational graph of operations
 (e.g. reading data from disk or network, performing transformations or
