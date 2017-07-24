@@ -40,13 +40,6 @@ The Python Data Stack:
 
 In practice, the "python data" software stack (see above) currently provides the most stable and powerful foundation layer for our desired tools. In particular the xarray and dask projects provide a mechanism to easily build scalability into scientific analysis.  Our vision of future AOC software involves the adoption of these common software layers, and a clear communication between developers to define project scope and dependency that eliminates redundancy and fragmentation.
 
-## The Packages
-  - signal processing
-  - vector calculus
-  - thermodynamics
-  - data storage / discovery
-  - regridding
-  - regions / shapes
 
 ## Get Involved
 The scientific culture in the AOC community must be tied to, and evolve from, the community's software culture.  Hence, we depend upon contributions from the entire community, both scientific and industrial.  

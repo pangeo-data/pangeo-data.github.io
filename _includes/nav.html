@@ -24,8 +24,11 @@
                 <li>
                     <a href="{{ site.baseurl }}/people">People</a>
                 </li>
+                <li>
+                    <a href="{{ site.baseurl }}/guidelines">guidelines</a>
+                </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Packages <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Documents<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     {% for page in site.pages %}
                                 {% assign url_array = page.url | split: '/'  %}
