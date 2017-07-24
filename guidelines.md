@@ -32,7 +32,7 @@ packages as much as possible to avoid duplication of effort.
 1. _Consume and Produce XArray Objects:_ XArray data structures facilitate
 mutual interoperability between packages.
 1. _Operate Lazily:_ packages should avoid explicitly triggering computation
-on [Dask] objects.
+on [Dask](http://dask.pydata.org/en/latest/array.html) objects.
 
 
 ### Why XArray and Dask?
