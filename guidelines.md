@@ -11,12 +11,14 @@ These practices are well established across the scientific python community.
 
 ### General Best Practices for Open Source
 
-1. Open source license
-1. Community guidelines (provide example)
-1. Version control of source code (for example, on [github](http://github.org))
-1. Thorough test coverage and continuous integration of testing
-1. Comprehensive Documentation
+1. Use an open-source license. See [Jake VanderPlas' article on licensing scientific code](http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/Jake VanderPlas' article on licensing scientific code) or [these more general guidelines](https://choosealicense.com/)
+1. Use version control for source code (for example, on [github](http://github.org))
+1. Provide thorough test coverage and continuous integration of testing
+1. Maintain comprehensive Documentation
+1. Establish a [code of conduct](https://opensource.guide/code-of-conduct/) for contributors
 
+The [open-source guide](https://opensource.guide/) provides some great advice on
+building and maintaining open-source projects.
 
 ### Best Practices for Pangeo Projects
 
@@ -24,54 +26,62 @@ To address the needs of geoscience researchers, we have developed some
 additional recommendations.
 
 1. _Solve a general problem:_ packages should solve a general problem
-that is encountered by broad groups of researchers.
+that is encountered by a relatively broad groups of researchers.
 1. _Clearly defined scope:_ packages should have a clear and relatively
-narrow scope.
+narrow scope, solving the specific problem[s] identified in the point above
+(rather than attempting to cover every possible aspect of geoscience research
+computing).
 1. _No duplication:_ developers should try to leverage existing
-packages as much as possible to avoid duplication of effort.
-1. _Consume and Produce XArray Objects:_ XArray data structures facilitate
-mutual interoperability between packages.
-1. _Operate Lazily:_ packages should avoid explicitly triggering computation
-on [Dask](http://dask.pydata.org/en/latest/array.html) objects.
+packages as much as possible to avoid duplication of effort. (In early-stage
+development and experimentation, however, some duplication will be
+inevitable as developers try implementing different solutions to the same
+general problems.)
+1. _Consume and Produce Xarray  Objects:_ Xarray  data structures facilitate
+mutual interoperability between packages. (For more about Xarray , see below.)
+1. _Operate Lazily:_ whevever possible, packages should avoid explicitly
+triggering computation on [Dask](http://dask.pydata.org/en/latest/array.html)
+objects. (For more about Dask, see below)
 
 
-### Why XArray and Dask?
+### Why Xarray  and Dask?
 
-The Pangeo project strongly encourages the use of XArray data structures
+The Pangeo project strongly encourages the use of Xarray  data structures
 wherever possible.
-XArray Dataset and DataArrays contain multidimensional
+Xarray  Dataset and DataArrays contain multidimensional
 numeric array data and also the metadata describing the data's coordinates,
 labels, units, and other relevant attributes.
-XArray makes it easy to keep this important metadata together with the raw data;
+Xarray  makes it easy to keep this important metadata together with the raw data;
 applications can then take advantage of the metadata to perform calculations
 or create visualizations in a coordinate-aware fashion.
-The use of XArray eliminates many common bugs, reduces the need to write
+The use of Xarray  eliminates many common bugs, reduces the need to write
 boilerplate code, makes code easier to understand, and generally makes users
 and developers happier and more productive in their day-to-day scientific
 computing.
 
 
-XArray's data model is explicitly based on the
+Xarray 's data model is explicitly based on the
 [CF Conventions](http://cfconventions.org/), a
 well-established community standard which encompasses many different common
 scenarios encountered in Earth System science.
-However, XArray is flexible and does not _require_ compliance with CF
+However, Xarray  is flexible and does not _require_ compliance with CF
 conventions.
+We encourage Pangeo packages to follow CF conventions wherever it makes sense
+to do so.
 
 Most geoscientists have encountered the CF data model via the ubiquitous
 [netCDF file format](https://www.unidata.ucar.edu/software/netcdf/).
-While XArray can easily read and write netCDF files, it doesn't have to.
-This is a key difference between software built on XArray and numerous
+While Xarray  can easily read and write netCDF files, it doesn't have to.
+This is a key difference between software built on Xarray  and numerous
 other tools designed to process netCDF data (e.g. nco, cdo, etc. etc.):
-_XArray data can be passed directly between python libraries (or over a
+_Xarray  data can be passed directly between python libraries (or over a
 network) without ever touching a disk drive._
 This "in-memory" capability is a key ingredient to the Big-Data scalability of
 Pangeo packages.
-Very frequenctly the bottleneck in data processing pipelines is reading and
+Very frequently the bottleneck in data processing pipelines is reading and
 writing files.
 
 Another important aspect of scalability is the use of Dask for parallel and
-out-of-core computations. The raw data underlying XArray objects can be either
+out-of-core computations. The raw data underlying Xarray  objects can be either
 standard in-memory [numpy arrays](http://www.numpy.org/) or
 [Dask arrays](http://dask.pydata.org/en/latest/array.html).
 Dask arrays behave nearly
