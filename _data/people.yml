@@ -273,3 +273,15 @@
     - physical oceanography
     - climate
     - software
+    
+- first_name: Jiawei
+  last_name: Zhuang
+  institution: Harvard University
+  website: https://scholar.harvard.edu/zhuangjw
+  email: jiaweizhuang@g.harvard.edu
+  github: JiaweiZhuang
+  twitter: Jiawei_Zhuang_
+  tags:
+    - atmospheric chemistry
+    - numerical methods
+    - HPC
