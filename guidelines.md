@@ -11,7 +11,7 @@ These practices are well established across the scientific python community.
 
 ### General Best Practices for Open Source
 
-1. Use an open-source license. See [Jake VanderPlas' article on licensing scientific code](http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/Jake VanderPlas' article on licensing scientific code) or [these more general guidelines](https://choosealicense.com/)
+1. Use an open-source license. See [Jake VanderPlas' article on licensing scientific code](http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/) or [these more general guidelines](https://choosealicense.com/)
 1. Use version control for source code (for example, on [github](http://github.org))
 1. Provide thorough test coverage and continuous integration of testing
 1. Maintain comprehensive Documentation
