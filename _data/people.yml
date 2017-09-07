@@ -285,3 +285,15 @@
     - atmospheric chemistry
     - numerical methods
     - HPC
+
+- first_name: Guido
+  last_name: Vettoretti
+  institution: University of Toronto
+  website: http://www.atmosp.physics.utoronto.ca/people/guido/guido.html
+  email: g.vettoretti@utoronto.ca
+  github: guidov
+  twitter: g_vettoretti
+  tags:
+    - paleoclimate
+    - HPC
+    - physical oceanography
