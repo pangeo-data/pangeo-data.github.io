@@ -4,10 +4,11 @@ title:      "First Pangeo Meeting"
 subtitle:   "Building scalable big data geoscience tools"
 date:       2016-11-06 12:00:00
 author:     "Joe Hamman"
-header-img: "img/post-bg-01.jpg"
 ---
 
-There are several building crises facing the Atmosphere / Ocean / Climate (AOC) science community:
+## Motivation
+
+There are several building crises facing the Atmosphere / Ocean / Land / Climate (AOC) science community:
 
 - Big Data: datasets are growing too rapidly and legacy software tools for scientific analysis can't handle them. This is a major obstacle to scientific progress.
 - Technology Gap:  a growing gap between the technological sophistication of industry solutions (high) and scientific software (low).
@@ -34,19 +35,13 @@ As much as possible, we will build on top of existing solutions and leverage exp
 
 The Python Data Stack:
 
-[]()
-(Source:  Jake VanderPlas, "The State of the Stack," SciPy Keynote (SciPy 2015).)
+![The State of the Stack](../img/scientific-python-28-638.jpg "The State of the Stack")
+(Source:  [Jake VanderPlas](https://staff.washington.edu/jakevdp/),
+  ["The State of the Stack,"](https://speakerdeck.com/jakevdp/the-state-of-the-stack-scipy-2015-keynote) SciPy Keynote (SciPy 2015).)
 
 
 In practice, the "python data" software stack (see above) currently provides the most stable and powerful foundation layer for our desired tools. In particular the xarray and dask projects provide a mechanism to easily build scalability into scientific analysis.  Our vision of future AOC software involves the adoption of these common software layers, and a clear communication between developers to define project scope and dependency that eliminates redundancy and fragmentation.
 
-## The Packages
-  - signal processing
-  - vector calculus
-  - thermodynamics
-  - data storage / discovery
-  - regridding
-  - regions / shapes
 
 ## Get Involved
 The scientific culture in the AOC community must be tied to, and evolve from, the community's software culture.  Hence, we depend upon contributions from the entire community, both scientific and industrial.  
@@ -58,4 +53,17 @@ We encourage everyone to get involved by:
 - contributing to the software, via issues and pull requests, and/or
 - using the software for your scientific analysis and letting us know about your experiences (e.g., contributing to examples)
 
-To join the organization and contribute, ... (TBD)
+For now, community discussion is happening on our
+[pangeo google group](https://groups.google.com/forum/#!forum/pangeo).
+This is an open group, and we invite anyone interested to join.
+
+************
+
+## Package Design Documents
+
+{% for page in site.pages %}{% if page.title %}
+  {% if page.url != '/404.html' and page.title != 'blog' and page.title != 'Pangeo Data' %}
+- [{{page.title}}]({{ page.url | prepend: site.baseurl }})
+  {% endif %}
+ {% endif %}
+{% endfor %}
