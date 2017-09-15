@@ -6,6 +6,12 @@ date:       2016-11-06 12:00:00
 author:     "Joe Hamman"
 ---
 
+After extensive online discussions, the Pangeo community held its first
+"in real life" meeting in November, 2016 at Columbia University.
+The [workshop website](https://rabernat.github.io/aospy-workshop/posts/workshop-program/)
+contains all the details of the program and participants.
+A major outcome of this...
+
 ## Motivation
 
 There are several building crises facing the Atmosphere / Ocean / Land / Climate (AOC) science community:
