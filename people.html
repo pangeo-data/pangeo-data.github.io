@@ -16,60 +16,59 @@ a pull request. The easiest way to do this is to directly
 </p>
 
 
+<table class="table table-striped small">
+
 {% assign people = site.data.people | sort:"last_name" %}
 
 {% for person in people %}
 
-<div class="panel panel-default">
-<div class="panel-heading">
-<ul class="list-inline">
-    <li><h3>{{ person.first_name }} {{ person.last_name}}</h3></li>
-    {% if person.github %}
-    <li>
-        <a href="https://github.com/{{ person.github }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-        </a>
-    </li>
-    {% endif %}
-    {% if person.twitter %}
-    <li>
-        <a href="https://twitter.com/{{ person.twitter }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-        </a>
-    </li>
-    {% endif %}
-
-    {% if person.email %}
-    <li>
-        <a href="mailto:{{ person.email }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-envelope fa-stack-1x"></i>
-            </span>
-        </a>
-    </li>
-    {% endif %}
-    {% if person.website %}
-    <li>
-        <a href="{{ person.website }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-external-link fa-stack-1x"></i>
-            </span>
-        </a>
-    </li>
-    {% endif %}
-</ul>
-</div>
-<div class="panel-body">
-{{ person.institution }}
-
-<p>{% for tag in person.tags %}
-<button type="button" class="btn btn-primary btn-sm">{{ tag }}</button>
-{% endfor %}</p>
-</div>
-</div>
-
-{% endfor %}
+  <tr>
+    <td>
+      <ul class="list-inline">
+        <li><strong>{{ person.first_name }} {{ person.last_name}}</strong></li>
+        {% if person.github %}
+        <li>
+            <a href="https://github.com/{{ person.github }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-github fa-stack-1x"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if person.twitter %}
+        <li>
+            <a href="https://twitter.com/{{ person.twitter }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if person.email %}
+        <li>
+            <a href="mailto:{{ person.email }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-envelope fa-stack-1x"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if person.website %}
+        <li>
+            <a href="{{ person.website }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-external-link fa-stack-1x"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+      </ul>
+      <em>{{ person.institution }}</em>
+      <br />
+    {% for tag in person.tags %}
+      <mark><a>{{ tag }}</a></mark>
+    {% endfor %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
