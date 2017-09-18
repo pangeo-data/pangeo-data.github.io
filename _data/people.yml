@@ -165,13 +165,14 @@
 
 - first_name: Noah
   last_name: Brenowitz
-  institution: New York University
-  website: http://cims.nyu.edu/~noah/
-  email: noah@cims.nyu.edu
+  institution: University of Washington
+  website: http://www.noahbrenowitz.com/
+  email: nbren12@uw.edu
   github: nbren12
   orcid: 0000-0001-8615-4921
   tags:
     - atmospheric science
+    - machine learning
 
 - first_name: Joy
   last_name: Monteiro
