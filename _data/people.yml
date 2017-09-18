@@ -298,3 +298,15 @@
     - paleoclimate
     - HPC
     - physical oceanography
+    
+    
+- first_name: Colin
+  last_name: Raymond
+  institution: Columbia University
+  website: http://www.ldeo.columbia.edu/user/raymondc
+  email: cr2630@columbia.edu
+  github: cr2630git
+  tags:
+    - climate
+    - atmospheric science
+    - modeling
