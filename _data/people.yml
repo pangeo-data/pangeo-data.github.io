@@ -310,3 +310,16 @@
     - climate
     - atmospheric science
     - modeling
+
+- first_name: Ben
+  last_name: Koziol
+  institution: University of Colorado-Boulder / NOAA Global Systems Division
+  website: https://www.esrl.noaa.gov/gsd/nesii/about/staff/ben.html
+  email: ben.koziol@noaa.gov
+  github: bekozi
+  orcid: 0000-0003-1406-7399
+  tags:
+    - HPC
+    - climate
+    - software
+    - GIS
