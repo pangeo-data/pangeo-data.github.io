@@ -310,3 +310,15 @@
     - climate
     - atmospheric science
     - modeling
+
+
+- first_name: Fabien
+  last_name: Maussion
+  institution: University of Innsbruck
+  website: http://fabienmaussion.info/
+  email: fabien.maussion@uibk.ac.at
+  github: fmaussion
+  orcid: 0000-0002-3211-506X
+  tags:
+    - climate
+    - glaciology
