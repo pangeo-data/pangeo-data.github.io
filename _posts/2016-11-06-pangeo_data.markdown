@@ -10,7 +10,8 @@ After extensive online discussions, the Pangeo community held its first
 "in real life" meeting in November, 2016 at Columbia University.
 The [workshop website](https://rabernat.github.io/aospy-workshop/posts/workshop-program/)
 contains all the details of the program and participants.
-A major outcome of this...
+The motivation, mission, and vision statemens below were one of the main outcomes of the meeting.
+We also developed [design documents](/design_docs) to identify community software needs and coordianted related development efforts.
 
 ## Motivation
 
@@ -67,9 +68,7 @@ This is an open group, and we invite anyone interested to join.
 
 ## Package Design Documents
 
-{% for page in site.pages %}{% if page.title %}
-  {% if page.url != '/404.html' and page.title != 'blog' and page.title != 'Pangeo Data' %}
+{% assign ddocs = site.collections | where:"label","design_docs" | first %}
+{% for page in ddocs.docs %}
 - [{{page.title}}]({{ page.url | prepend: site.baseurl }})
-  {% endif %}
- {% endif %}
 {% endfor %}
