@@ -23,3 +23,8 @@ paginate_path: "/blog/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+collections:
+  design_docs:
+    output: true
+    name: "Design Documents"
