@@ -13,8 +13,6 @@ took place at the inaugural
 - [{{page.title}}]({{ page.url | prepend: site.baseurl }})
 {% endfor %}
 
-{{ ddocs | json }}
-
 Note that these documents are not updated; many of the ideas have been
 superceded by more mature projects lists in the
 [packages] directory.
