@@ -11,7 +11,7 @@ After extensive online discussions, the Pangeo community held its first
 The [workshop website](https://rabernat.github.io/aospy-workshop/posts/workshop-program/)
 contains all the details of the program and participants.
 The motivation, mission, and vision statemens below were one of the main outcomes of the meeting.
-We also developed [design documents](/design_docs) to identify community software needs and coordianted related development efforts.
+We also developed [design documents](/design_docs) to identify community software needs and coordiante related development efforts.
 
 ## Motivation
 
