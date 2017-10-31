@@ -31,7 +31,7 @@
                   <ul class="dropdown-menu">
                     {% for doc in coll.docs %}
                     <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ doc.title }}</a>
+                        <a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a>
                     </li>
                     {% endfor %}
                   </ul>
