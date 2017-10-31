@@ -7,7 +7,7 @@ author:     "Joe Hamman"
 ---
 
 The first release candidate of Xarray v0.10 was released today. The release
-includes more than five moths of work and contributions from more than 28
+includes more than five months of work and contributions from more than 28
 contributors, many of whom are part of the Pangeo community.
 
 The release includes numerous new features, performance improvements, and bug fixes.
