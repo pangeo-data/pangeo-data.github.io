@@ -42,7 +42,7 @@ As much as possible, we will build on top of existing solutions and leverage exp
 
 The Python Data Stack:
 
-![The State of the Stack](../img/scientific-python-28-638.jpg "The State of the Stack")
+![The State of the Stack]({{ site.baseurl }}/img/scientific-python-28-638.jpg "The State of the Stack")
 (Source:  [Jake VanderPlas](https://staff.washington.edu/jakevdp/),
   ["The State of the Stack,"](https://speakerdeck.com/jakevdp/the-state-of-the-stack-scipy-2015-keynote) SciPy Keynote (SciPy 2015).)
 
