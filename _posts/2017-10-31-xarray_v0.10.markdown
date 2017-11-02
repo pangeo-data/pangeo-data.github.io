@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "Xarray 0.10 release"
+subtitle:   "New features, performance improvements, and a few bug fixes"
+date:       2017-10-31 12:00:00
+author:     "Joe Hamman"
+---
+
+The first release candidate of Xarray v0.10 was released today. The release
+includes more than five months of work and contributions from more than 28
+contributors, many of whom are part of the Pangeo community.
+
+The release includes numerous new features, performance improvements, and bug fixes.
+Full details of the release can be found in the [Xarray documentation](http://xarray.pydata.org/en/v0.10.0rc1/whats-new.html).
+
+### Release Highlights:
+
+- Indexing now supports broadcasting over dimensions, similar to NumPy’s
+  vectorized indexing (but better!).
+- `resample()` has a new groupby-like API like pandas. Of particular note, Xarray's
+  resample tools now also support up- and down-sampling.
+- `apply_ufunc()` facilitates wrapping and parallelizing functions written for
+  NumPy arrays.
+- Performance improvements, particularly for `dask` and `open_mfdataset()`.
+
+We're excited for the Pangeo community to test out this release candidate and
+encourage users to report any [issues on GitHub](https://github.com/pydata/xarray/issues).
+If all goes well, the final v0.10.0 release will come out in about a week.
+
+To install, use:
+
+    pip install --pre --upgrade --upgrade-strategy=only-if-needed xarray
+
+### Part of Pangeo's Roadmap
+
+This is the first release of Xarray since the
+[NSF funded Pangeo project]({{ site.baseurl }}{% link _posts/2017-10-29-announcing-Pangeo-Earthcube-award.md %})
+began. While the development work that contributed to this release was by no
+means done entirely by Pangeo members, it does address two of the key Xarray
+development objectives described in the [Pangeo project description](https://figshare.com/articles/Pangeo_NSF_Earthcube_Proposal/5361094):
+1) improvements of distributed computing and efficiency with `dask`, and 2)
+enhancement of current Xarray tools for applying arbitrary functions on Xarray/dask
+objects.

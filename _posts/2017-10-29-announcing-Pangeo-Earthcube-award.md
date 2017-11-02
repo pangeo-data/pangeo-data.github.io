@@ -31,7 +31,7 @@ __[National Corporation for Atmospheric Research](https://ncar.ucar.edu/)
 / [Unidata](http://www.unidata.ucar.edu/)__"
 * [Kevin Paul](https://staff.ucar.edu/users/kpaul) (lead PI)
 * [Joe Hamman](http://joehamman.com/)
-* [Ryan May](https://staff.ucar.edu/users/rmay),
+* [Ryan May](https://staff.ucar.edu/users/rmay)
 * [Davide Del Vento](https://staff.ucar.edu/users/ddvento)
 
 __[Anaconda](https://www.anaconda.com/)__ (Formerly Continuum Analytics):
