@@ -14,7 +14,7 @@ Dear Friends and Colleagues
 I am thrilled to share the news that NSF has decided to fund a proposal to support the Pangeo project!
 
 Last December I reached out to you to enquire about interest in a collaborative proposal, and many of you expressed your enthusiasm. After lots of back and forth with managers of different programs, we decided to submit to the [EarthCube](https://earthcube.org/) program, which funds cyberinfrastructure projects related to Earth Science. The specific solicitation we responded to is
-[here](https://www.google.com/url?q=https%3A%2F%2Fwww.nsf.gov%2Fpubs%2F2016%2Fnsf16514%2Fnsf16514.htm&sa=D&sntz=1&usg=AFQjCNHKvXj9L4pTCnv7Ls8k6Cj5L2Iu-w).
+[here](https://www.nsf.gov/pubs/2016/nsf16514/nsf16514.htm).
 Our project is technically called an “EarthCube integration.” This type of project requires a close link to “Geoscience Use Cases,” i.e. actual science applications.
 The need to closely intertwine the technical development and the scientific applications determined the structure of our proposal and the makeup of the team.
 
@@ -28,7 +28,7 @@ __[Columbia / Lamont](http://www.ldeo.columbia.edu/)__:
 * [Naomi Henderson](http://www.ldeo.columbia.edu/user/naomi)
 
 __[National Corporation for Atmospheric Research](https://ncar.ucar.edu/)
-/ [Unidata](http://www.unidata.ucar.edu/)__"
+/ [Unidata](http://www.unidata.ucar.edu/)__
 * [Kevin Paul](https://staff.ucar.edu/users/kpaul) (lead PI)
 * [Joe Hamman](http://joehamman.com/)
 * [Ryan May](https://staff.ucar.edu/users/rmay)
@@ -37,7 +37,7 @@ __[National Corporation for Atmospheric Research](https://ncar.ucar.edu/)
 __[Anaconda](https://www.anaconda.com/)__ (Formerly Continuum Analytics):
 * [Matt Rocklin](https://matthewrocklin.com/)
 
-Although many other people were interested in and supportive of this initiative, the proposal team includes people who were actually in a position to formally collaborate on an NSF proposal (which unfortunately excluded lone grad students and postdocs, as well as
+Although many other people were interested in and supportive of this initiative, the proposal team includes people who were actually in a position to formally collaborate on an NSF proposal. This unfortunately excluded lone grad students and postdocs, as well as
 [Stephan Hoyer](http://stephanhoyer.com/) (creator of xarray)
 himself. My only regret is that there was no easy way to directly involve the broader Pangeo community; we were constrained by the realities of NSF’s policies. On the upside, we have entrained several new people from Lamont into the project, including some prominent senior scientists who are not yet Xarray users but who recognize the importance of the tools we are building for scientific progress. Their involvement strengthened the “Use Case” aspect of the proposal, and they provide an ideal test case for observing and
 evaluating the transition of a research group from commercial to open-source
