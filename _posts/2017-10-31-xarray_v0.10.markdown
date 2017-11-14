@@ -41,3 +41,7 @@ development objectives described in the [Pangeo project description](https://fig
 1) improvements of distributed computing and efficiency with `dask`, and 2)
 enhancement of current Xarray tools for applying arbitrary functions on Xarray/dask
 objects.
+
+***Update 2017-11-13:***
+The second release candidate was released today and is now available on PyPi.
+This release included a number of minor bug fixes to new features in v0.10.
