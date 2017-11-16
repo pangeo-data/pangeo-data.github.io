@@ -334,3 +334,14 @@
     - climate
     - software
     - GIS
+  
+- first_name: Yu
+  last_name: Cheng
+  institution: University of Miami
+  website: https://fischcheng.github.io
+  email: yucheng@rsmas.miami.edu
+  github: fischcheng
+  tags:
+    - climate
+    - modeling
+    - physical oceanography
