@@ -345,3 +345,14 @@
     - climate
     - modeling
     - physical oceanography
+
+- first_name: Maike
+  last_name: Sonnewald
+  institution: Massachusetts Insitute of Technology
+  website: https://maikejulie.github.io
+  email: maike_sg@mit.edu
+  github: maikejulie
+  tags:
+    - statistics
+    - modeling/HPC
+    - physical oceanography
