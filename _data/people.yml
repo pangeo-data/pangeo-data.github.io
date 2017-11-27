@@ -356,3 +356,13 @@
     - statistics
     - modeling/HPC
     - physical oceanography
+
+- first_name: Kai
+  last_name: Pak
+  institution: Columbia University
+  website: https://kaipak.github.io
+  email: kai.pak@columbia.edu
+  github: kaipak
+  tags:
+    - physical oceanography
+    - climate 
