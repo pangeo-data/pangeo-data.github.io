@@ -45,3 +45,6 @@ objects.
 ***Update 2017-11-13:***
 The second release candidate was released today and is now available on PyPi.
 This release included a number of minor bug fixes to new features in v0.10.
+
+***Update 2017-11-27:***
+The final release was published last week and is now available on PyPi and conda.
