@@ -365,4 +365,15 @@
   github: kaipak
   tags:
     - physical oceanography
-    - climate 
+    - climate
+
+- first_name: Damien
+  last_name: Irving
+  institution: CSIRO
+  website: https://drclimate.wordpress.com/
+  email: irving.damien@gmail.com
+  github: damienirving
+  tags:
+    - physical oceanography
+    - climate
+    - software carpentry
