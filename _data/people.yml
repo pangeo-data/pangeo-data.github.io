@@ -377,3 +377,15 @@
     - physical oceanography
     - climate
     - software carpentry
+
+- first_name: Redouane  
+  last_name: Lguensat
+  institution: Institut des Géosciences de l’Environnement
+  website: http://redouanelg.github.io
+  email: redouane.lguensat@univ-grenoble-alpes.fr
+  github: redouanelg
+  twitter: redouanelg
+  orcid:  0000-0003-0226-9057
+  tags:
+    - machine learning
+    - computer vision
