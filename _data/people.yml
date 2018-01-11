@@ -389,3 +389,16 @@
   tags:
     - machine learning
     - computer vision
+    
+- first_name: Rich
+  last_name: Signell
+  institution: USGS
+  website: http://about.me/Rich.Signell
+  email: rsignell@usgs.gov
+  github: rsignell-usgs
+  twitter: rsignell
+  orcid: 0000-0003-0682-9613
+  tags:
+    - physical oceanography
+    - coastal ocean modeling
+    - geoinformatics
