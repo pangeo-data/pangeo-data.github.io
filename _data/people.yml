@@ -402,3 +402,16 @@
     - physical oceanography
     - coastal ocean modeling
     - geoinformatics
+    
+- first_name: Anthony
+  last_name: Arendt
+  institution: University of Washington
+  website: http://psc.apl.uw.edu/people/investigators/anthony-arendt/
+  email: arendta@uw.edu
+  github: aaarendt
+  twitter: aaarendt
+  orcid: 0000-0003-0429-6905
+  tags:
+    - alpine hydrology
+    - geospatial mapping
+    - remote sensing
