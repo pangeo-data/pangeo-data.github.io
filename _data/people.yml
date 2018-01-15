@@ -415,3 +415,17 @@
     - alpine hydrology
     - geospatial mapping
     - remote sensing
+    
+    
+- first_name: Scott
+  last_name: Henderson
+  institution: University of Washington
+  website: http://escience.washington.edu/people/scott-henderson/
+  email: scottyh@uw.edu
+  github: scottyhq
+  twitter: scottyhq
+  orcid: 0000-0003-0624-4965
+  tags:
+    - remote sensing
+    - active tectonics
+    - geodesy
