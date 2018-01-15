@@ -34,7 +34,7 @@ We envision a collection of related but independent open-source packages that me
 - comprehensive documentation, and
 - a welcoming and inclusive development culture.
 
-At the core of the Pangeo concept is a collection of tools that are already widely used throughout and beyond the geoscientific community. Tn recent years, the open-source scientific software stack in Python has grown to become rich and full featured.
+At the core of the Pangeo concept is a collection of tools that are already widely used throughout and beyond the geoscientific community. In recent years, the open-source scientific software stack in Python has grown to become rich and full featured.
 
 ![The State of the Stack](../img/scientific-python-28-638.jpg "The State of the Stack")
 *Caption: The Python Data Stack. Source:  [Jake VanderPlas](https://staff.washington.edu/jakevdp/),
