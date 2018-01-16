@@ -429,3 +429,18 @@
     - remote sensing
     - active tectonics
     - geodesy
+
+- first_name: Rob
+  last_name: Fatland
+  institution: University of Washington
+  website: http://cloudraven.org
+  email: rob5@uw.edu
+  github: robfatland
+  orcid:  0000-0003-4556-8321
+  tags:
+    - remote sensing
+    - sensor networks
+    - data visualization
+    - cloud computing
+    - embedded hardware
+    - eduation and public outreach
