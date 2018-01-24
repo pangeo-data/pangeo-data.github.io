@@ -444,3 +444,18 @@
     - cloud computing
     - embedded hardware
     - eduation and public outreach
+    
+- first_name: John
+  last_name: Burkhart
+  institution: University of Oslo
+  website: https://folk.uio.no/~johnbur
+  email: john.burkhart@geo.uio.no
+  github: jfburkhart
+  twitter: jfburkhart
+  orcid: 0000-0002-5587-1693
+  tags:
+    - climate
+    - snow hydrology
+    - energy transport
+    - cryosphere-aerosol
+    - remote sensing
