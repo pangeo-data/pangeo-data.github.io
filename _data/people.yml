@@ -459,3 +459,18 @@
     - energy transport
     - cryosphere-aerosol
     - remote sensing
+
+- first_name: Tom
+  last_name: Connolly
+  institution: Moss Landing Marine Labs
+  website: https://www.mlml.calstate.edu/physoce/people/tconnolly/
+  email: tconnolly@mlml.calstate.edu
+  github: tompc35
+  twitter: tompc35
+  orcid: 0000-0002-2159-5918
+  tags:
+    - physical oceanography
+    - coasts and estuaries
+    - observations
+    - numerical modeling
+    - teaching
