@@ -474,3 +474,17 @@
     - observations
     - numerical modeling
     - teaching
+    
+- first_name: Bryan
+  last_name: Lawrence
+  institution: NCAS, University of Reading
+  website: https://www.bnlawrence.net
+  email: bryan.lawrence@ncas.ac.uk
+  github: bnlawrence
+  twitter: bnlawrence
+  orcid: 0000-0001-9262-7860
+  tags:
+    - climate simulation
+    - hpc 
+    - data infrastructure 
+    - cloud computing
