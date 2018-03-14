@@ -488,3 +488,15 @@
     - hpc 
     - data infrastructure 
     - cloud computing
+
+- first_name: Chris
+  last_name: Hill
+  institution: Massachusetts Institute of Technology
+  email: cnh@mit.edu
+  github: christophernhill
+  orcid: 0000-0003-3417-9056
+  tags:
+    - ocean modeling
+    - hpc 
+    - research computing
+    - cyberinfrastructure
