@@ -500,3 +500,15 @@
     - hpc 
     - research computing
     - cyberinfrastructure
+
+- first_name: David
+  last_name: Blodgett
+  institution: U.S. Geological Survey
+  email: dblodgett@usgs.gov
+  github: dblodgett-usgs
+  orcid: 0000-0001-9489-1710
+  tags:
+    - hydrology
+    - information modeling
+    - cyberinfrastructure
+    - geoinformatics
