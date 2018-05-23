@@ -512,3 +512,13 @@
     - information modeling
     - cyberinfrastructure
     - geoinformatics
+
+- first_name: Leif
+  last_name: Denby
+  institution: ICAS, University of Leeds
+  email: leif@denby.eu
+  github: leifdenby
+  tags:
+    - numerical modelling
+    - atmospheric dynamics
+    - cloud computing
