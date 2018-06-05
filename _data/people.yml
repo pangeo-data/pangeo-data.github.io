@@ -537,3 +537,15 @@
     - observations
     - data fusion
     - machine learning
+
+- first_name: Wenchang
+  last_name: Yang
+  institution: Princeton University
+  website: https://scholar.princeton.edu/wenchang
+  email: wenchang@princeton.edu
+  github: wy2136
+  twitter: wy2136
+  orcid: 0000-0003-0053-9527
+  tags:
+    - atmospheric science
+    - climate
