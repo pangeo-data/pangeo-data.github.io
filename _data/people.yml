@@ -537,3 +537,17 @@
     - observations
     - data fusion
     - machine learning
+
+- first_name: Kwangwoog
+  last_name: Jung
+  institution: Seoul National University
+  email: next7885@snu.ac.kr
+  github: next7885
+  tags:
+    - physical oceanography
+    - numerical modelling
+    - High Performance Computing (HPC)
+    - Cloud Computing
+    - GPU Computing
+    - big data analytics
+    - machine learning
